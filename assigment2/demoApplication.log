@@ -5,21 +5,21 @@
 [main] INFO  com.impetus.kundera.configure.PersistenceUnitConfiguration  - Finishing persistence unit metadata configuration ...
 [main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Loading Entity Metadata...
 [main] INFO  com.impetus.kundera.configure.MetamodelConfiguration  - No class to scan for persistence unit hbase_pu. Entities will be loaded from classpath/ context-path
-[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating MedicalRecord
-[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for MedicalRecord
-[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class MedicalRecord
-[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(MedicalRecord) for Persistence Object.
-[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity MedicalRecord will not be indexed for all columns
-[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating Patient
-[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for Patient
-[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class Patient
-[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(Patient) for Persistence Object.
-[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity Patient will not be indexed for all columns
-[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating Physician
-[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for Physician
-[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class Physician
-[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(Physician) for Persistence Object.
-[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity Physician will not be indexed for all columns
+[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating hello.MedicalRecord
+[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for hello.MedicalRecord
+[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class hello.MedicalRecord
+[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(hello.MedicalRecord) for Persistence Object.
+[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity hello.MedicalRecord will not be indexed for all columns
+[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating hello.Patient
+[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for hello.Patient
+[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class hello.Patient
+[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(hello.Patient) for Persistence Object.
+[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity hello.Patient will not be indexed for all columns
+[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating hello.Physician
+[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for hello.Physician
+[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class hello.Physician
+[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(hello.Physician) for Persistence Object.
+[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity hello.Physician will not be indexed for all columns
 [main] INFO  com.impetus.kundera.configure.ClientMetadataBuilder  - Loading client factory for persistence unit hbase_pu
 [main] INFO  com.impetus.kundera.client.ClientResolver  - Initializing client factory for: hbase_pu
 [main] INFO  com.impetus.kundera.client.ClientResolver  - Finishing factory initialization
@@ -493,21 +493,21 @@ org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = 
 [main] INFO  com.impetus.kundera.configure.PersistenceUnitConfiguration  - Finishing persistence unit metadata configuration ...
 [main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Loading Entity Metadata...
 [main] INFO  com.impetus.kundera.configure.MetamodelConfiguration  - No class to scan for persistence unit hbase_pu. Entities will be loaded from classpath/ context-path
-[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating Patient
-[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for Patient
-[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class Patient
-[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(Patient) for Persistence Object.
-[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity Patient will not be indexed for all columns
-[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating MedicalRecord
-[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for MedicalRecord
-[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class MedicalRecord
-[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(MedicalRecord) for Persistence Object.
-[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity MedicalRecord will not be indexed for all columns
-[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating Physician
-[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for Physician
-[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class Physician
-[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(Physician) for Persistence Object.
-[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity Physician will not be indexed for all columns
+[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating hello.Patient
+[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for hello.Patient
+[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class hello.Patient
+[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(hello.Patient) for Persistence Object.
+[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity hello.Patient will not be indexed for all columns
+[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating hello.MedicalRecord
+[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for hello.MedicalRecord
+[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class hello.MedicalRecord
+[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(hello.MedicalRecord) for Persistence Object.
+[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity hello.MedicalRecord will not be indexed for all columns
+[main] DEBUG com.impetus.kundera.validation.rules.EntityAnnotationRule  - Validating hello.Physician
+[main] DEBUG com.impetus.kundera.configure.MetamodelConfiguration  - Metadata not found in cache for hello.Physician
+[main] DEBUG com.impetus.kundera.metadata.MetadataBuilder  - Processing @Entity >> class hello.Physician
+[main] DEBUG com.impetus.kundera.metadata.processor.TableProcessor  - Processing @Entity(hello.Physician) for Persistence Object.
+[main] DEBUG com.impetus.kundera.metadata.processor.IndexProcessor  - @Entity hello.Physician will not be indexed for all columns
 [main] INFO  com.impetus.kundera.configure.ClientMetadataBuilder  - Loading client factory for persistence unit hbase_pu
 [main] INFO  com.impetus.kundera.client.ClientResolver  - Initializing client factory for: hbase_pu
 [main] INFO  com.impetus.kundera.client.ClientResolver  - Finishing factory initialization

@@ -4,9 +4,9 @@
              version="2.0">
     <persistence-unit name="hbase_pu">
         <provider>com.impetus.kundera.KunderaPersistence</provider>
-        <class>MedicalRecord</class>
-        <class>Patient</class>
-        <class>Physician</class>
+        <class>hello.MedicalRecord</class>
+        <class>hello.Patient</class>
+        <class>hello.Physician</class>
         <properties>
             <property name="kundera.nodes" value="localhost" />
             <property name="kundera.port" value="60000" />
